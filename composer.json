@@ -1,0 +1,23 @@
+{
+    "name": "caller/caller",
+    "description": "",
+    "authors": [
+        {
+            "name": "TNSERVICE",
+            "email": "kamolpop@thinknet.co.th"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Caller\\Caller\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
